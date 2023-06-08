@@ -1,0 +1,35 @@
+.modal {
+    display: none;
+    position: fixed; 
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    position: relative; /* Добавлено */
+  }
+
+  .close {
+    color: #888;
+    position: absolute; /* Добавлено */
+    top: 10px; /* Добавлено */
+    right: 10px; /* Добавлено */
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: #000;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
